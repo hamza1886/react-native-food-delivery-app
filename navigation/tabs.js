@@ -76,7 +76,7 @@ const CustomTabBar = props => {
       </View>
     );
   } else {
-    <BottomTabBar {...props.props} />;
+    return <BottomTabBar {...props.props} />;
   }
 };
 
